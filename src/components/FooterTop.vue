@@ -1,9 +1,8 @@
 <template>
   <div class="footer">
-    <!-- <h1>{{ msg }}</h1> -->
-    <h3>
-      footer
-    </h3>
+    <h6>
+      Powered by imagination
+    </h6>
 
 
 
@@ -13,9 +12,6 @@
 <script>
 export default {
   name: 'FooterTop',
-  props: {
-    msg: String
-  }
 }
 </script>
 

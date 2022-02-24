@@ -1,18 +1,25 @@
 <template>
   <div class="header">
-    <!-- <h1>{{ msg }}</h1> -->
-    <h3>
-      header
-    </h3>
+    <h2>My Contact Book</h2>
+    <nav>
+      <ul>
+        <li>
+          <a>Home</a>
+        </li>
+        <li>
+          <a>Add New</a>
+        </li>
+        <li>
+          <a>View All</a>
+        </li>
+      </ul>
+    </nav>
   </div>
 </template>
 
 <script>
 export default {
   name: 'HeaderTop',
-  props: {
-    msg: String
-  }
 }
 </script>
 
@@ -21,5 +28,15 @@ export default {
 h3 {
   margin: 40px 0 0;
 }
+li{
+  list-style-type: none;
+}
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding:0px
+}
+
 
 </style>

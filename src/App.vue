@@ -2,6 +2,7 @@
   <HeaderTop/>
   <img id="sunset" alt="Vue logo" src="./assets/sunset.jpg">
   <HelloWorld msg="Hellloooooo world!"/>
+  <InputForm/>
   <FooterTop/>
 </template>
 
@@ -9,13 +10,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import HeaderTop from './components/HeaderTop.vue'
 import FooterTop from './components/FooterTop.vue'
+import InputForm from './components/InputForm.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderTop,
     HelloWorld,
-    FooterTop
+    InputForm,
+    FooterTop,
   }
 }
 </script>

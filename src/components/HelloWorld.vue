@@ -2,7 +2,7 @@
   <div class="hello">
     <!-- <h1>{{ msg }}</h1> -->
     <p>
-      You're the man!
+      Add your new contacts here.
     </p>
 
 
